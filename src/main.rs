@@ -1,7 +1,6 @@
 use csv::{ReaderBuilder, WriterBuilder};
 use std::env;
 use std::fs::File;
-use std::io::Write;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // コマンドライン引数からファイル名を取得
